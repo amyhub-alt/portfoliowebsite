@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="75px" height="75px" viewBox="0 0 120.5 120.5" style="enable-background:new 0 0 120.5 120.5;" xml:space="preserve"
+	>
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{font-family:'STHeitiTC-Light';}
+	.st2{font-size:72px;}
+	.st3{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<font horiz-adv-x="1000">
+<!-- STHeiti and SinoType are trademarks of Changzhou SinoType Technology Co., Ltd. -->
+<!-- Copyright: Copyright 2024 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="STHeitiTC-Light" units-per-em="1000" underline-position="-133" underline-thickness="20"/>
+<missing-glyph horiz-adv-x="1000" d="M86,778l510,0l0,-778l-510,0M158,77l364,0l0,632l-364,0M330,120l-126,0l0,128l126,0z"/>
+<glyph unicode="a" horiz-adv-x="683" d="M605,591l0,-531l-67,0l0,91C477,78 408,42 330,42C252,42 186,70 133,126C79,181 52,248 52,325C52,402 79,468 133,523C187,578 252,605 327,605C414,605 484,568 538,494l0,97M542,323C542,384 522,435 481,477C440,518 391,539 332,539C273,539 223,518 182,475C141,432 121,381 121,322C121,263 142,213 183,170C224,127 274,105 332,105C389,105 439,126 480,167C521,208 542,260 542,323z"/>
+<glyph unicode="l" horiz-adv-x="200" d="M66,796l68,0l0,-736l-68,0z"/>
+<glyph unicode="t" horiz-adv-x="339" d="M205,144C205,126 207,115 212,112C217,109 229,107 248,107l41,0l0,-58C261,44 239,42 223,42C193,42 171,49 157,64C143,79 136,102 136,133l0,400l-94,0l0,58l94,0l0,205l69,0l0,-205l108,0l0,-58l-108,0z"/>
+</font>
+
+	<g>
+	<rect x="4.39" y="29.29" class="st0" width="105.7230" height="87.94"/>
+	<text transform="matrix(1 0 0 1 13.2561 86.6018)" class="st1 st2">alt</text>
+	<circle class="st3" cx="60.25" cy="60.25" r="58.75"/>
+</g>
+</svg>
