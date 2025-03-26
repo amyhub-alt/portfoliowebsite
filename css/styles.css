@@ -234,34 +234,41 @@ main.home-wrapper {
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr); 
-      grid-gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
       width: 100%;
-      max-width: 1200px; /* Keeps grid centered and prevents overexpansion */
-      margin: 0 auto; 
-  }
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      box-sizing: border-box;
+    }
+    
   
-  .grid__item {
-   
-      background-color: rgba(128, 128, 128, 0.2); /* light gray with 30% opacity */
+    .grid__item {
+      background-color: rgba(0, 0, 0, 0.05);
       padding: 20px;
-      text-align: center;
+      border-radius: 10px;
+      text-align: left;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      font-size: 1rem;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      height: 100%;
-  }
-
-  .grid__item img {
-    width: 100%;
-    height: 250px;
-    object-fit: contain;
-    max-width: 100%;
-    background-color: #fff; /* optional, gives a clean border around smaller images */
+      justify-content: flex-start;
+    }
     
-  }
+
+    .grid__item img {
+      width: 100%;
+      height: 250px;
+      object-fit: contain;
+      max-width: 100%;
+      background-color: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.1); /* light gray border */
+      border-radius: 4px; /* optional: soft rounded corners */
+      padding: 4px; /* optional: spacing between image and border */
+      box-sizing: border-box;
+    }
+    
   
   .social-media a {
     display: inline-block;
@@ -325,6 +332,58 @@ main.home-wrapper {
     margin-top: 20px;
   }
   
+
+
+  /* === CONTACT FORM CLEANUP === */
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+.standard-label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+#contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+#contact-form input[type="submit"] {
+  background-color: var(--secondary-color);
+  color: var(--font-color);
+  font-weight: 600;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#contact-form input[type="submit"]:hover {
+  background-color: #e7884c; /* slightly darker orange */
+}
+
 
 /* Responsive Adjustments */
 @media all and (max-width: 1024px) {
